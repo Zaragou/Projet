@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.video {
+    z-index: 0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+/*----------------------------------------------------------- NAVBAR ----------------------------------------------------------------*/
+
+.test {
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    width: 100%;
+}
+
+.dragon {
+    width: 60px;
+    margin-left: 20px;;
+}
+
+.test a.navmenu {
+    text-decoration: none;
+    margin: 10px 25px;
+    color: white;
+    padding: 10px;
+    font-family: 'Merienda';
+}
+
+.imgRes {
+    width: 25px;
+    height: auto;
+}
+
+.imgRes:first-child {
+    margin-left: 1450px;
+}
+
+.liens {
+    width: 30px;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+/*----------------------------------------------------------- BACKGROUND ------------------------------------------------------------*/
+
+.titre1 {
+    z-index: 1;
+    position: relative;
+    font-size: 100px;
+    font-family: 'Merienda';
+    letter-spacing: 7px;
+    text-align: center;
+    margin: 0;
+    padding-top: 40vh;
+    overflow: hidden;
+    color: #FFE0F7;
+    text-shadow: #D449F5 1px 0 10px;
+}
+
+.imgZara {
+    z-index: 1;
+    position: fixed;
+    width: auto;
+    height: 120%;
+    margin-left: 33%;
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+/*----------------------------------------------------------- MENU ------------------------------------------------------------------*/
+
+.menu {
+    display: grid;
+    justify-content: right;
+    margin-top: -250px;
+    overflow: hidden;
+}
+
+.menu a:hover {
+    transform: translate(-120px,0);
+    transition: .3s ease-in-out;
+}
+
+.menu a:hover img  {
+    transform: rotate(0.5turn);
+    transition: .3s ease-in;
+}
+
+.menu a {
+    z-index: 1;
+    display: flex;
+    margin-bottom: 115px;
+    margin-right: -151px;
+    text-decoration: none;
+    align-items: center;
+    color: #FFE0F7;
+    padding: 27px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    background: linear-gradient(to right, #7a67e6, #D449F5);
+    font-family: 'Raleway';
+    transition: .3s ease-in-out;
+}
+
+.menu a img {
+    width: 40px;
+    transition: .3s ease-in;
+}
+
+
+/*----------------------------------------------------------- SLOGAN ----------------------------------------------------------------*/
+
+.slogan {
+    background-color: rgba(135, 55, 160, 0.897);
+    color:#FFE0F7;
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    padding-left: 30px;
+}
+
+.titre2 {
+    z-index: 1;
+    display: block;
+    width: 380px;
+    text-transform: uppercase, bold;
+    font-family: 'Raleway';
+}
+
+.description {
+    display: block;
+    font-size: 13px;
+    font-family: 'Merriweather';
+    letter-spacing: 1px;
+    width: 310px;
+    line-height: 1.3;
+    text-align: justify;
+}
